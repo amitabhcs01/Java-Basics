@@ -14,7 +14,7 @@
   2) Javac is the java-compiler that compile java source code to (.class) file Or ByteCode;
   3) afte that JIT compile that .class bytecode file to the Operating System's executable file , example : for windows(.exe)
 
-              *******----- Diagram to explain ------***************
+              *----- Diagram to explain ------*
              +-------------------------+
            |       Java Code         |          (Source Code)
            |     (HelloWorld.java)   |
@@ -56,5 +56,15 @@ public class BasicsIntroduction {  //first ve have to make a class
     }
     
 }
+ /* 
+public static void main(String args[]) {}
 
-//LET'S Talk about public static void main(String args[]){} 
+// Explanation:
+- public: The method is accessible from anywhere.
+- static: The method can be run without creating an instance of the class.
+- void: The method does not return any value.
+- main: The entry point for the program where execution begins.
+- String: The type of data for `args`, which can only contain text.
+- args[]: An array of `String` used for command-line arguments.
+ */
+
