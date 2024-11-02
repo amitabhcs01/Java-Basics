@@ -68,3 +68,4 @@ public static void main(String args[]) {}
 - args[]: An array of `String` used for command-line arguments.
  */
 
+//Now talk about the System.out.println :  it is the print statement.
